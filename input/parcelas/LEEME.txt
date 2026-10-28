@@ -1,0 +1,1 @@
+﻿Carpeta de trabajo de TR RGB Analyzer. Vea README.md.

@@ -1,0 +1,39 @@
+{
+  "_comentario": "Configuración de TR RGB Analyzer. Las claves que empiezan por '_' son comentarios. Si borra una clave se usa el valor por defecto.",
+  "max_megapixels_warning": 40,
+  "viewer_max_side": 2500,
+  "map_max_side": 1600,
+  "roi_min_side": 5,
+  "roi_min_area": 100,
+  "zero_division_eps": 1e-6,
+  "_auto_scale_percentiles": "Percentiles usados para la escala de color de los mapas ([0, 100] = mínimo-máximo).",
+  "auto_scale_percentiles": [2, 98],
+  "map_colormap": "RdYlGn",
+  "_trend_line_min_n": "Número mínimo de parcelas para dibujar una línea de tendencia en los scatter.",
+  "trend_line_min_n": 5,
+  "correlation_min_n": 3,
+  "correlation_exploratory_n": 10,
+  "_csv_format": "excel_es = separador ';' y decimal ',' (Excel en español/catalán); standard = ',' y '.'",
+  "csv_format": "excel_es",
+  "dpi": 150,
+  "default_settings": {
+    "main_indices": ["GLI", "VARI", "ExG"],
+    "experimental_indices": [],
+    "exg_mode": "chromatic",
+    "vegetation_method": "exg",
+    "vegetation_threshold": 0.1,
+    "vegetation_exg_mode": "normalized",
+    "vari_clip": true,
+    "only_vegetation": false,
+    "map_scale_mode": "common",
+    "aggregate_stat": "mean",
+    "preprocessing": {
+      "normalize": true,
+      "exclude_saturated": false,
+      "exclude_dark": false,
+      "dark_threshold": 10,
+      "exclude_transparent": true,
+      "downscale_max_side": null
+    }
+  }
+}

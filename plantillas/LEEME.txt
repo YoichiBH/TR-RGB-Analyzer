@@ -1,0 +1,24 @@
+﻿PLANTILLAS VACÍAS (sólo cabeceras, sin datos)
+=============================================
+
+Copie la plantilla que necesite en la carpeta indicada y rellénela con SUS PROPIOS
+datos (Excel, Bloc de notas o LibreOffice). Las plantillas no contienen datos inventados.
+
+  parcelas_plantilla.csv          -> input/parcelas/parcelas.csv     (sólo para el modo consola;
+                                                                       en la GUI las parcelas se dibujan)
+  humedad_arduino_plantilla.csv   -> input/datos_campo/humedad.csv
+  observaciones_plantilla.csv     -> input/datos_campo/observaciones.csv
+
+Columnas:
+  parcelas:      id_parcela, nombre, foto (nombre exacto del archivo), x1, y1, x2, y2, descripcion
+                 (coordenadas en píxeles de la foto original; x2 e y2 excluidos)
+  humedad:       fecha, hora, parcela, lectura_adc (lectura analogRead RAW: es la que se analiza),
+                 porcentaje_humedad (opcional; calculado por el Arduino, se conserva aparte)
+                 (también se acepta el formato antiguo parcela, medicion, humedad_raw)
+  observaciones: parcela, estado_general (1 = muy pobre … 5 = muy bueno), coloracion, densidad,
+                 estres_visible, uniformidad, observaciones, fecha
+
+Separador "," o ";" (ambos se detectan automáticamente). Decimales con "." o ",".
+
+arduino_humedad_csv.ino es un ejemplo de programa para Arduino que imprime las lecturas
+en el formato que espera el programa (copie el Monitor Serie a un archivo .csv).

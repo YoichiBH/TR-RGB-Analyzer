@@ -1,0 +1,19 @@
+﻿id_parcela,nombre,foto,x1,y1,x2,y2,descripcion,uid
+A,Vegetación densa,DEMO_vuelo_01.jpg,85,110,365,390,Parcela sintética (DEMO),44bbd4b757
+B,Vegetación media,DEMO_vuelo_01.jpg,460,110,740,390,Parcela sintética (DEMO),47a09043ff
+C,Vegetación escasa,DEMO_vuelo_01.jpg,835,110,1115,390,Parcela sintética (DEMO),d9f7bfb507
+D,Zona seca,DEMO_vuelo_01.jpg,85,510,365,790,Parcela sintética (DEMO),4233a34d76
+E,Vegetación media-alta,DEMO_vuelo_01.jpg,460,510,740,790,Parcela sintética (DEMO),69387a2894
+F,Mixta,DEMO_vuelo_01.jpg,835,510,1115,790,Parcela sintética (DEMO),7b0fab523b
+A,Vegetación densa,DEMO_vuelo_02.jpg,85,110,365,390,Parcela sintética (DEMO),fa1a753b7a
+B,Vegetación media,DEMO_vuelo_02.jpg,460,110,740,390,Parcela sintética (DEMO),6be94b3639
+C,Vegetación escasa,DEMO_vuelo_02.jpg,835,110,1115,390,Parcela sintética (DEMO),e7e8a4e397
+D,Zona seca,DEMO_vuelo_02.jpg,85,510,365,790,Parcela sintética (DEMO),c87e40d590
+E,Vegetación media-alta,DEMO_vuelo_02.jpg,460,510,740,790,Parcela sintética (DEMO),374a0feb5c
+F,Mixta,DEMO_vuelo_02.jpg,835,510,1115,790,Parcela sintética (DEMO),b2f5246ce8
+A,Vegetación densa,DEMO_vuelo_03.jpg,85,110,365,390,Parcela sintética (DEMO),8f4c478fef
+B,Vegetación media,DEMO_vuelo_03.jpg,460,110,740,390,Parcela sintética (DEMO),87394c8b96
+C,Vegetación escasa,DEMO_vuelo_03.jpg,835,110,1115,390,Parcela sintética (DEMO),6bd603cdc8
+D,Zona seca,DEMO_vuelo_03.jpg,85,510,365,790,Parcela sintética (DEMO),f0dc8915a0
+E,Vegetación media-alta,DEMO_vuelo_03.jpg,460,510,740,790,Parcela sintética (DEMO),ec11085e60
+F,Mixta,DEMO_vuelo_03.jpg,835,510,1115,790,Parcela sintética (DEMO),64c13a7b1b

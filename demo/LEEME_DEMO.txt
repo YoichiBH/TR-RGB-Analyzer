@@ -1,0 +1,4 @@
+DEMO — NO SON DATOS EXPERIMENTALES
+
+Esta carpeta contiene datos SINTÉTICOS generados por demo.py para comprobar que el programa funciona.
+No los utilice como resultados del Treball de Recerca.

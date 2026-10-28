@@ -1,0 +1,18 @@
+# TR RGB Analyzer — dependencias (Python 3.10 o superior)
+# Instalación:  python -m pip install -r requirements.txt
+
+# Obligatorias
+numpy>=1.23
+Pillow>=9.5
+pandas>=1.5
+matplotlib>=3.6
+
+# Recomendadas (el programa funciona sin ellas, con funciones reducidas)
+scipy>=1.9        # valores p de Pearson/Spearman (si falta, se usa una implementación interna)
+openpyxl>=3.0     # exportación a Excel (.xlsx)
+
+# Sólo para ejecutar los tests
+pytest>=7.0
+
+# Tkinter viene incluido con el instalador oficial de Python para Windows
+# (opción "tcl/tk and IDLE"); no se instala con pip.

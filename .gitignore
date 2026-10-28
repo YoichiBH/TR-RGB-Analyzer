@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv*/
+venv/
+output/
+demo/output/
+logs/
+projects/_autoguardado/
+input/fotos/*
+!input/fotos/LEEME.txt
+input/datos_campo/*
+!input/datos_campo/LEEME.txt
+input/parcelas/*
+!input/parcelas/LEEME.txt
